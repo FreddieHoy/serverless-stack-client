@@ -1,4 +1,5 @@
 export default {
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
     REGION: 'us-east-1',
     BUCKET: 'notes-app-uploading-tutorial'
@@ -12,5 +13,6 @@ export default {
     USER_POOL_ID: 'us-east-1_SLTRADLhQ',
     APP_CLIENT_ID: '3s0vhoetevd8qi0nuvk8oj9odl',
     IDENTITY_POOL_ID: 'us-east-1:8e8ce459-5c2c-4672-b57f-cad1dbeacf1f'
-  }
+  },
+  STRIPE_KEY: 'pk_test_4CFBvPfLTWUMGTeIlNksqjfn00NU7aPmMm'
 };
